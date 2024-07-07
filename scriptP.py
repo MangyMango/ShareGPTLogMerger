@@ -46,7 +46,7 @@ def convert_to_parquet(data, output_file):
     pq.write_table(table, output_file)
 
 # Specify the input folder path and output file paths
-input_folder = r"C:\Users\Jam\Downloads\logs"  # Use raw string for Windows paths
+input_folder = r"C:\Users\Mia\Downloads\logs"  # Use raw string for Windows paths
 output_json = "merged_conversations.json"
 output_parquet = "conversations.parquet"
 
